@@ -1,0 +1,14 @@
+Semana | Dias da Semana | Estudo em Angular | Estudo em JavaScript | Leitura de Livros
+---------------------------------------------------------------------------------------
+1      | Segunda a Sexta | 2 horas            | 1 hora               | 1 hora
+       | Sábado e Domingo | -                  | 3 horas              | 1 hora
+---------------------------------------------------------------------------------------
+2      | Segunda a Sexta | 2 horas            | 1 hora               | 1 hora
+       | Sábado e Domingo | -                  | 3 horas              | 1 hora
+---------------------------------------------------------------------------------------
+3      | Segunda a Sexta | 2 horas            | 1 hora               | 1 hora
+       | Sábado e Domingo | -                  | 3 horas              | 1 hora
+---------------------------------------------------------------------------------------
+4      | Segunda a Sexta | 2 horas            | 1 hora               | 1 hora
+       | Sábado e Domingo | -                  | 3 horas              | 1 hora
+---------------------------------------------------------------------------------------
