@@ -1,4 +1,4 @@
-// variaveis e operadores + - * /
+// operadores + - * / %
 // let variavel que pode ser mudada o valor
 // const variavel com valor imutavel
 
