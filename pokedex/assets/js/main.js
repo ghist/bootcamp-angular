@@ -20,17 +20,35 @@ function convertPokemonToLi(pokemon){
 
 const pokemonList = document.getElementById('pokemonList')
 
-pokeApi.getPokemons().then((pokemons) => {
+pokeApi.getPokemons().then((pokemons = []) => {
 
-    const listItens = []
+    pokemonList.innerHTML += pokemons.map(convertPokemonToLi).join('')
 
-    for (let i = 0; i < pokemons.length; i++) {
-        const pokemon = pokemons[i];
-        //pokemonList.innerHTML += convertPokemonToLi(pokemon)
-        listItens.push(convertPokemonToLi(pokemon))   
-    }
+    //1
+    // const newList = pokemons.map((pokemon) => {
+    //     //return pokemon.name
+    //     return convertPokemonToLi(pokemon)
+    // })
 
-    console.log(listItens)
+    // const newHtml = newList.join('')
+
+    // pokemonList.innerHTML += newHtml
+
+    //2
+    //const newList = pokemons.map((pokemon) => convertPokemonToLi(pokemon))
+
+    //console.log(newList)
+
+    //3
+    // const listItens = []
+
+    // for (let i = 0; i < pokemons.length; i++) {
+    //     const pokemon = pokemons[i];
+    //     //pokemonList.innerHTML += convertPokemonToLi(pokemon)
+    //     listItens.push(convertPokemonToLi(pokemon))   
+    // }
+
+    // console.log(listItens)
 })
     
 /*    .then(function (response) {
